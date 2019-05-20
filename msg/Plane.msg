@@ -14,7 +14,7 @@ geometry_msgs/Point32[] convex_hull
 geometry_msgs/Point32 plane_point
 
 # Range of x, y coordinates
-mcr_perception_msgs/BoundingBox2D limits
+mas_perception_msgs/BoundingBox2D limits
 
 ########################
 # Plane name
@@ -22,5 +22,5 @@ string name
 
 ########################
 # Objects associated with plane
-mcr_perception_msgs/ObjectList object_list
+mas_perception_msgs/ObjectList object_list
 

@@ -1,2 +1,2 @@
 # A list of planes
-mcr_perception_msgs/Plane[] planes
+mas_perception_msgs/Plane[] planes

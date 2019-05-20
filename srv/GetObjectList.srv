@@ -3,4 +3,4 @@
 time stamp
 
 # List of all recorded objects
-mcr_perception_msgs/Object[] objects
+mas_perception_msgs/Object[] objects

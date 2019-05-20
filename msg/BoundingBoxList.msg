@@ -1,2 +1,2 @@
 Header header
-mcr_perception_msgs/BoundingBox[] bounding_boxes
+mas_perception_msgs/BoundingBox[] bounding_boxes

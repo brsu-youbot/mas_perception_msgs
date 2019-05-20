@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>mcr_perception_msgs</name>
+  <name>mas_perception_msgs</name>
   <version>0.0.1</version>
   <description>common perception messages</description>
 

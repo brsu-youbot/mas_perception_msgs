@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mcr_perception_msgs)
+project(mas_perception_msgs)
 
 find_package(catkin REQUIRED
   COMPONENTS

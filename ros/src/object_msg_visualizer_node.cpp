@@ -5,7 +5,7 @@
  *      Author: Frederik Hegger
  */
 
-#include <mcr_perception_msgs/Object.h>
+#include <mas_perception_msgs/Object.h>
 #include <ros/ros.h>
 #include <visualization_msgs/MarkerArray.h>
 
@@ -26,7 +26,7 @@ public:
         pub_marker_.shutdown();
     }
 
-    void objectCallback(const mcr_perception_msgs::Object::Ptr msg)
+    void objectCallback(const mas_perception_msgs::Object::Ptr msg)
     {
         visualization_msgs::MarkerArray  marker_array;
         visualization_msgs::Marker marker_text;

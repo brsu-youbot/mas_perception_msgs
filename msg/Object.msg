@@ -23,7 +23,7 @@ sensor_msgs/Image rgb_image
 sensor_msgs/PointCloud2 pointcloud
 
 # The bounding box of the object
-mcr_perception_msgs/BoundingBox bounding_box
+mas_perception_msgs/BoundingBox bounding_box
 
 # The ROI of image (2D BBox)
 sensor_msgs/RegionOfInterest roi

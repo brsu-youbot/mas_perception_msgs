@@ -26,8 +26,8 @@ add_message_files(
     BoundingBoxList.msg
     BoundingBox2D.msg
     Cavity.msg
+    PeopleScene.msg
     Face.msg
-    FaceList.msg
     ImageList.msg
     LaserScanSegment.msg
     LaserScanSegmentList.msg

@@ -1,4 +1,5 @@
-string identity
+string identity                         # unique string that identify the person
+string name                             # given name, e.g. 'John Doe'
 float32 age
 mas_perception_msgs/Face face
 sensor_msgs/Image body_image            # extracted RGB image of the person

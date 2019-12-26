@@ -18,6 +18,7 @@ find_package(catkin REQUIRED
 add_action_files(DIRECTORY action
   FILES
     DetectScene.action
+    DetectObjects.action
 )
 
 add_message_files(

@@ -13,8 +13,11 @@ string category
 # The object's id in a database
 int32 database_id
 
-# Probability 
+# Probability
 float32 probability
+
+# dominant object color
+Color dominant_color
 
 # Extracted RGB image of the image
 sensor_msgs/Image rgb_image

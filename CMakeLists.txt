@@ -35,6 +35,7 @@ add_message_files(
     MatchingErrorStamped.msg
     Object.msg
     ObjectList.msg
+    Color.msg
     Person.msg
     PersonList.msg
     Plane.msg

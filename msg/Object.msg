@@ -17,7 +17,7 @@ int32 database_id
 float32 probability
 
 # dominant object color
-Color dominant_color
+NamedColor dominant_color
 
 # object shape
 Shape shape

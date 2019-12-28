@@ -20,7 +20,7 @@ float32 probability
 NamedColor dominant_color
 
 # object shape
-Shape shape
+NamedShape shape
 
 # Extracted RGB image of the image
 sensor_msgs/Image rgb_image

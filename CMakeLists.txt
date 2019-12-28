@@ -36,6 +36,7 @@ add_message_files(
     Object.msg
     ObjectList.msg
     Color.msg
+    Shape.msg
     Person.msg
     PersonList.msg
     Plane.msg

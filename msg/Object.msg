@@ -19,6 +19,9 @@ float32 probability
 # dominant object color
 Color dominant_color
 
+# object shape
+Shape shape
+
 # Extracted RGB image of the image
 sensor_msgs/Image rgb_image
 

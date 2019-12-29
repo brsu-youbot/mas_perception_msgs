@@ -8,5 +8,6 @@ string YELLOW=yellow
 string BROWN=brown
 string PURPLE=purple
 string PINK=pink
+string OTHER=other
 
 string color

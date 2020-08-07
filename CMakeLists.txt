@@ -33,7 +33,10 @@ add_message_files(
     LaserScanSegmentList.msg
     MatchingErrorStamped.msg
     Object.msg
+    ObjectEmbedding.msg
     ObjectList.msg
+    ObjectView.msg
+    ObjectViews.msg
     Person.msg
     PersonList.msg
     Plane.msg

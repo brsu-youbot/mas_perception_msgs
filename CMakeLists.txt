@@ -18,6 +18,7 @@ find_package(catkin REQUIRED
 add_action_files(DIRECTORY action
   FILES
     DetectScene.action
+    DetectObjects.action
 )
 
 add_message_files(
@@ -26,8 +27,8 @@ add_message_files(
     BoundingBoxList.msg
     BoundingBox2D.msg
     Cavity.msg
+    PeopleScene.msg
     Face.msg
-    FaceList.msg
     ImageList.msg
     LaserScanSegment.msg
     LaserScanSegmentList.msg
@@ -37,6 +38,8 @@ add_message_files(
     ObjectList.msg
     ObjectView.msg
     ObjectViews.msg
+    NamedColor.msg
+    NamedShape.msg
     Person.msg
     PersonList.msg
     Plane.msg

@@ -2,8 +2,9 @@ string identity                         # unique string that identify the person
 string name                             # given name, e.g. 'John Doe'
 float32 age
 mas_perception_msgs/Face face
-sensor_msgs/Image body_image            # extracted RGB image of the person
-sensor_msgs/PointCloud2 body_points     # extracted point cloud of the person
+
+mas_perception_msgs/ObjectView views    # extracted views of the person (RGB image, point cloud, image embedding);
+								        # an array since we may have multiple views of the same person
 
 string[] attribute_names                # e.g. gender, emotion,...
 string[] attributes                     # e.g. male, angry,...

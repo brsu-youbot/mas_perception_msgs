@@ -37,7 +37,6 @@ add_message_files(
     ObjectEmbedding.msg
     ObjectList.msg
     ObjectView.msg
-    ObjectViews.msg
     NamedColor.msg
     NamedShape.msg
     Person.msg

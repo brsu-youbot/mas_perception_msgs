@@ -13,14 +13,19 @@ string category
 # The object's id in a database
 int32 database_id
 
-# Probability 
+# Probability
 float32 probability
 
-# Extracted RGB image of the image
-sensor_msgs/Image rgb_image
+# dominant object color
+NamedColor dominant_color
 
-# Segmented cluster that represents the object
-sensor_msgs/PointCloud2 pointcloud
+# object shape
+NamedShape shape
+
+# View representation including an RGB image of the object, a point cloud,
+# and potentially an embedding of the image. An array since we may have
+# multiple views of the same object
+mas_perception_msgs/ObjectView[] views
 
 # The bounding box of the object
 mas_perception_msgs/BoundingBox bounding_box

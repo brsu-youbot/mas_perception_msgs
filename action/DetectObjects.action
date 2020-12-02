@@ -2,5 +2,6 @@
 ---
 # Result
 mas_perception_msgs/ObjectList objects
+sensor_msgs/Image image
 ---
 # Empty Feedback

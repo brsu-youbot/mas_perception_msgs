@@ -22,11 +22,10 @@ NamedColor dominant_color
 # object shape
 NamedShape shape
 
-# Extracted RGB image of the image
-sensor_msgs/Image rgb_image
-
-# Segmented cluster that represents the object
-sensor_msgs/PointCloud2 pointcloud
+# View representation including an RGB image of the object, a point cloud,
+# and potentially an embedding of the image. An array since we may have
+# multiple views of the same object
+mas_perception_msgs/ObjectView[] views
 
 # The bounding box of the object
 mas_perception_msgs/BoundingBox bounding_box

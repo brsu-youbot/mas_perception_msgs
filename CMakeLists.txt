@@ -34,7 +34,9 @@ add_message_files(
     LaserScanSegmentList.msg
     MatchingErrorStamped.msg
     Object.msg
+    ObjectEmbedding.msg
     ObjectList.msg
+    ObjectView.msg
     NamedColor.msg
     NamedShape.msg
     Person.msg

@@ -84,6 +84,7 @@ catkin_package(
     message_runtime
     sensor_msgs
     std_msgs
+    actionlib_msgs
 )
 
 include_directories(

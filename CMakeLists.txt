@@ -19,6 +19,7 @@ add_action_files(DIRECTORY action
   FILES
     DetectScene.action
     DetectObjects.action
+    OccupancyChecker.action
 )
 
 add_message_files(

@@ -19,6 +19,7 @@ add_action_files(DIRECTORY action
   FILES
     DetectScene.action
     DetectObjects.action
+    DetectImageObjects.action
     OccupancyChecker.action
 )
 
@@ -48,6 +49,8 @@ add_message_files(
     PointCloud2List.msg
     Blob.msg
     BlobList.msg
+    ObjectDetectionResult.msg
+    ImageArray.msg
 )
 
 add_service_files(

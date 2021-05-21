@@ -1,0 +1,7 @@
+# Empty Goal
+mas_perception_msgs/ImageArray image_array
+---
+# Result
+ObjectDetectionResult detections
+---
+# Empty Feedback

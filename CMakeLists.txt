@@ -34,7 +34,9 @@ add_message_files(
     LaserScanSegmentList.msg
     MatchingErrorStamped.msg
     Object.msg
+    ObjectEmbedding.msg
     ObjectList.msg
+    ObjectView.msg
     NamedColor.msg
     NamedShape.msg
     Person.msg
@@ -82,6 +84,7 @@ catkin_package(
     message_runtime
     sensor_msgs
     std_msgs
+    actionlib_msgs
 )
 
 include_directories(

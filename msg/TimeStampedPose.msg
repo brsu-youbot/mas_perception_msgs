@@ -1,0 +1,2 @@
+float64 timestamps
+geometry_msgs/PoseStamped pose

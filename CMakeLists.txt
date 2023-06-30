@@ -47,6 +47,7 @@ add_message_files(
     PointCloud2List.msg
     Blob.msg
     BlobList.msg
+    TimeStampedPose.msg
 )
 
 add_service_files(

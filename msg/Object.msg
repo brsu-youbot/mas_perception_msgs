@@ -32,3 +32,6 @@ mas_perception_msgs/BoundingBox bounding_box
 
 # The ROI of image (2D BBox)
 sensor_msgs/RegionOfInterest roi
+
+# Instance segmentation mask of the object
+sensor_msgs/Image mask
